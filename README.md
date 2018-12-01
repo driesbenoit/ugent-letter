@@ -93,6 +93,7 @@ can, for example, be created with [ImageMagic](https://www.imagemagick.org):
   * `convert inputfile.png -white-threshold 70% outputfile.png`
   * `convert inputfile.png -trim outputfile.png`
   * `convert inputfile.png -transparent white outputfile.png`
+
 Note that you might want to increase one ore more margins of the resulting file, so that the size of the signature matches
 the fontsize of the letter.
   
