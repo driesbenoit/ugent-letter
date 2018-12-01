@@ -69,8 +69,8 @@ The theme options can be set as follows:
   * `bw`: Faculty of Bioscience Engineering
   * `fw`: Faculty of Pharmaceutical Sciences
   * `ps`: Faculty of Political and Social Sciences
-* `signature`, boolean, 
-  * Use the signature file to sign the letter
+* `signature` 
+  * Add this option to use the signature file to sign the letter
   * Replace the file `signature.png` by your own signature
 * `pagenumbers`
   * This option enables page numbers in the format [current page]/[total pages]
