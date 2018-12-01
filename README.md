@@ -25,7 +25,7 @@ Download the latest release by following [this](https://github.com/driesbenoit/u
 
 Installation
 ============
-The theme is an addendum for LaTeX, hence it is assumed that you have a running LaTeX installation.
+The theme is an addendum for LaTeX, hence it is assumed that you have a running LaTeX installation such as Tex-Live or MikTeX.
 
 Once you have the files, all that is required for the theme to work is putting the files into a directory where LaTeX can find them. This boils down to mimicking the so called TDS (or TeX Directory Structure).
 
