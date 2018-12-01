@@ -31,19 +31,17 @@ Once you have the files, all that is required for the theme to work is putting t
 
 Ad-hoc installation 
 -------------------
-After downloading, copy the files named beamer*ugent.sty, together with all *.png files from the image folder, into the same folder as your LaTeX source file.
+After downloading, copy the files named ugent-letter.cls, defaultsender-nl.tex, defaultsender-en.tex, together with all *.png files from the image folder, into the same folder as your LaTeX source file.
 
-Then include the theme by writing:
+Then load the ugent-letter class by writing:
 ```latex
-\documentclass{beamer}
-
-\usetheme{ugent}
+\documentclass[faculty=eb]{ugent-letter}
 ```
 in the preamble of your document.
 
 Global installation
 -------------------
-In case you're using your favorite flavor of Unix (and/or TeX Live) you need to have a local directory (this will probably be ~/texmf/) and you need to place all the files from the theme folder in the directory ~/texmf/tex/latex/beamer/themes/ugent/, finishing it by running texhash.
+In case you're using your favorite flavor of Unix (and/or TeX Live) you need to have a local directory (this will probably be ~/texmf/) and you need to place all the files from the theme folder in the directory ~/texmf/tex/latex/mystyles/ugent-letter/, finishing it by running texhash.
 
 If on the other hand you're on Windows (probably MiK\TeX) the walkthrough at [this url](http://docs.miktex.org/manual/localadditions.html) explains in detail how to create a local installation. Don't forget to Refresh FNDB as explained [here](http://docs.miktex.org/manual/configuring.html#fndbupdate).
 
