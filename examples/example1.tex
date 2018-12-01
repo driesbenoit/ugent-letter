@@ -1,0 +1,51 @@
+\documentclass[language=en,faculty=eb,rightcolwidth=.25,signature,pagenumbers]{ugent-letter}
+\usepackage{lipsum}
+
+%\dept{Research Group Data Analytics}
+
+\begin{document}
+
+% The settings below can be saved in the
+% defaultsettings-en.tex or defaultsettings-nl.tex
+% files and define the default 'from' information 
+% (so that the 6 lines below can be omitted)
+\mydept{Research Group\\Big Data Analytics}
+\myname{Prof. dr. Dries Benoit}
+\myposition{Professor of Data Analytics}
+\myemail{dries.benoit@ugent.be}
+\myphone{+32 9 264 35 52}
+\myaddress{Campus Tweekerken\\Tweekerkenstraat 2\\9000 Ghent\\Belgium}
+
+% The settings below most likely change for every letter
+% only \mydate is mandatory, \myref and \mysubject can be omitted
+\myref{XYZ--123}
+\mydate{November 28, 2018}
+\mysubject{Lorem ipsum dolor sit amet, consectetuer adipiscing elit}
+
+% Start of the actual letter
+\begin{letter}{
+        % Optional 'to' information
+        Dr. Annelies Raes\\
+        Postdoctoral researcher ITEC\\
+        KULeuven --- KULAK\\
+        Etienne Sabbelaan 53\\
+        8500 Kortrijk\\
+        Belgium
+}
+
+% Opening the letter, this macro also typsets the 'from', 'to',
+% 'subject', 'Ref' and 'Date' information
+\opening{Dear Dr.~Raes,\\Dear Annelies,}
+
+% Write the body of your letter here.
+\lipsum[1-2]
+
+% Closing the letter, this macro uses \myname and \myposition
+% to sign the letter. If the signature option is used, 
+% the file signature.png is placed above \myname and \myposition
+% If this option is not set, then some blank space is left open
+% to allow manual signing.
+\closing{Best regards,}
+
+\end{letter}
+\end{document}
