@@ -1,6 +1,6 @@
 # Version v0.1-0
-The aim of this letter template for UGent-style letters in LaTeX:
-* A theme that closely resembles the official UGent MS Word letter themes.
+The aim of this UGent letter LaTeX class:
+* A template that closely resembles the official [UGent MS Word letter templates](https://styleguide.ugent.be/templates/print.html#letter).
 * Similar theme options as the [UGent beamer theme](https://github.com/driesbenoit/ugent-beamer).
 * Faculty specific versions.
 * Ease-of-use for the average LaTeX user.
