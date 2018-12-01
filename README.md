@@ -1,5 +1,5 @@
 # Version v0.1-0
-The aim of this UGent letter LaTeX class:
+The aim of this `ugent letter` LaTeX class:
 * A template that closely resembles the official [UGent MS Word letter templates](https://styleguide.ugent.be/templates/print.html#letter).
 * Similar theme options as the [UGent beamer theme](https://github.com/driesbenoit/ugent-beamer).
 * Faculty specific versions.
