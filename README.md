@@ -1,5 +1,5 @@
 # Version v0.1-0
-The aim of this UGent style file for writing letters in LaTeX:
+The aim of this letter template for UGent-style letters in LaTeX:
 * A theme that closely resembles the official UGent MS Word letter themes.
 * Similar theme options as the [UGent beamer theme](https://github.com/driesbenoit/ugent-beamer).
 * Faculty specific versions.
@@ -70,7 +70,7 @@ The theme options can be set as follows:
   * `fw`: Faculty of Pharmaceutical Sciences
   * `ps`: Faculty of Political and Social Sciences
 * `signature` 
-  * Add this option to use the signature file to sign the letter
+  * Add this option to use the signature file to sign the letter (see below)
   * Replace the file `signature.png` by your own signature
 * `pagenumbers`
   * This option enables page numbers in the format [current page]/[total pages]
@@ -83,6 +83,18 @@ Default 'from' information
 --------------------------
 Adjust the `defaultsender-en.tex` and `defaultsender-nl.tex` to set the default 'from' information. By doing so,
 the 'from' macro's do not have to be defined for every new letter.
+
+Signature file
+--------------
+Replace the `signature.png` file in the image folder with your own signature to sign letter electronically. This file
+can, for example, be created with [ImageMagic](https://www.imagemagick.org):
+* Make a scan of your signature
+* Run the following ImageMagic commands:
+  * `convert inputfile.png -white-threshold 70% outputfile.png`
+  * `convert inputfile.png -trim outputfile.png`
+  * `convert inputfile.png -transparent white outputfile.png`
+Note that you might want to increase one ore more margins of the resulting file, so that the size of the signature matches
+the fontsize of the letter.
   
 License
 =======
