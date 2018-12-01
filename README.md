@@ -1,5 +1,5 @@
 # Version v0.1-0
-The aim of this UGent style file for writing letters:
+The aim of this UGent style file for writing letters in LaTeX:
 * A theme that closely resembles the official UGent MS Word letter themes.
 * Similar theme options as the [UGent beamer theme](https://github.com/driesbenoit/ugent-beamer).
 * Faculty specific versions.
