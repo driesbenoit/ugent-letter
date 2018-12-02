@@ -6,7 +6,7 @@ The aim of this `ugent-letter` LaTeX class:
 * Ease-of-use for the average LaTeX user.
 
 Requires the package [helvet](https://ctan.org/pkg/helvet) and [letter](https://ctan.org/pkg/letter) to be 
-installed in your LaTeX distribution. Also depends on other packages that are include in most LaTeX 
+installed in your LaTeX distribution. Also depends on other packages that are included in most LaTeX 
 distributions (kvoptions, graphicx, xcolor, ifthen, fontenc, inputenc and lastpage).
 
 Demo
@@ -43,11 +43,11 @@ Global installation
 -------------------
 In case you're using your favorite flavor of Unix (and/or TeX Live) you need to have a local directory (this will probably be ~/texmf/) and you need to place all the files from the theme folder in the directory ~/texmf/tex/latex/mystyles/ugent-letter/, finishing it by running texhash.
 
-If on the other hand you're on Windows (probably MiK\TeX) the walkthrough at [this url](http://docs.miktex.org/manual/localadditions.html) explains in detail how to create a local installation. Don't forget to Refresh FNDB as explained [here](http://docs.miktex.org/manual/configuring.html#fndbupdate).
+If on the other hand you're on Windows (probably MiKTeX) the walkthrough at [this url](http://docs.miktex.org/manual/localadditions.html) explains in detail how to create a local installation. Don't forget to Refresh FNDB as explained [here](http://docs.miktex.org/manual/configuring.html#fndbupdate).
 
 Usage
 =====
-Refer to the extended examples (`example/exampleX.tex`) for an overview of the possibilities of the style file.
+Refer to the extended examples (`example/exampleX.tex`) for an overview of the possibilities of the `ugent-letter` class.
 
 Class options
 -------------
@@ -81,8 +81,8 @@ The theme options can be set as follows:
   
 Default 'from' information
 --------------------------
-Adjust the `defaultsender-en.tex` and `defaultsender-nl.tex` to set the default 'from' information. By doing so,
-the 'from' macro's do not have to be defined for every new letter.
+Adjust the `defaultsender-en.tex` and `defaultsender-nl.tex` to set the default 'from' information (in English and Dutch
+respectively). By doing so, the 'from' macro variables do not have to be set for every new letter.
 
 Signature file
 --------------
