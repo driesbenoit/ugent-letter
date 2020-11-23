@@ -79,7 +79,7 @@
         \begin{minipage}[b][\headheight]{\textwidth}
 
             \begin{minipage}[b][1cm]{\leftcol}
-                \includegraphics[height=1cm]{\ugl@faculty-\ugl@language.png}
+                \includegraphics[height=1cm]{img/\ugl@faculty-\ugl@language.png}
             \end{minipage}%
             \begin{minipage}[b][1cm][b]{\rightcol}
                 \color{ugentblue}
@@ -91,7 +91,7 @@
     % 
     \renewcommand{\@oddfoot}{%
         \parbox[t][22.5mm]{\textwidth}{%
-            \includegraphics[height=22.5mm]{ugent-\ugl@language.png}
+            \includegraphics[height=22.5mm]{img/ugent-\ugl@language.png}
             \ifugl@pagenumbers
                 \hfill\thepage/\pageref{LastPage}
             \fi
@@ -167,7 +167,7 @@
     \noindent
     \parbox{\indentedwidth}{\raggedright
         \ignorespaces #1\ifugl@signature
-            \\\hspace{-4ex}\includegraphics[height=9\medskipamount]{signature.png}\\
+            \\\hspace{-4ex}\includegraphics[height=9\medskipamount]{img/signature.png}\\
         \else
             \\[9\medskipamount]%
         \fi
