@@ -34,6 +34,8 @@
     \RequirePackage[dutch]{babel}
 }
 
+\graphicspath{{img/}}
+
 \LoadClass[a4paper]{letter}
 
 % Define input macro's
@@ -77,11 +79,10 @@
     \renewcommand{\@oddhead}{%
 
         \begin{minipage}[b][\headheight]{\textwidth}
-
-            \begin{minipage}[b][1cm]{\leftcol}
-                \includegraphics[height=1cm]{\ugl@faculty-\ugl@language.png}
+            \begin{minipage}[c]{\leftcol}
+                \hspace*{-1cm}\includegraphics[height=3cm]{\ugl@faculty-\ugl@language}
             \end{minipage}%
-            \begin{minipage}[b][1cm][b]{\rightcol}
+            \begin{minipage}[c]{\rightcol}
                 \color{ugentblue}
                 \scshape
                 \fromdept%
@@ -91,7 +92,7 @@
     % 
     \renewcommand{\@oddfoot}{%
         \parbox[t][22.5mm]{\textwidth}{%
-            \includegraphics[height=22.5mm]{ugent-\ugl@language.png}
+        \hspace*{-1cm}\includegraphics[height=40mm]{ugent-\ugl@language}
             \ifugl@pagenumbers
                 \hfill\thepage/\pageref{LastPage}
             \fi
@@ -167,7 +168,7 @@
     \noindent
     \parbox{\indentedwidth}{\raggedright
         \ignorespaces #1\ifugl@signature
-            \\\hspace{-4ex}\includegraphics[height=9\medskipamount]{signature.png}\\
+            \\\hspace{-4ex}\includegraphics[height=9\medskipamount]{signature}\\
         \else
             \\[9\medskipamount]%
         \fi
